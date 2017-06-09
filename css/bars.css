@@ -22,7 +22,15 @@ li .bar-temp {
 	
 	padding-right: 5.3333333%;
 }
+/*li  {
 
+	width: 50%;
+	float: left;
+	list-style-type: none;
+	
+	padding-right: 5.3333333%;
+}
+*/
 li:nth-child(even) { margin-bottom: 1em;}
 
 h2 {
