@@ -68,12 +68,14 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  /*background: #18BC9C;*/
+  /*background-image: url("img/background.jpg");*/
   color: white;
 }
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
+
 }
 header img {
   display: block;
@@ -181,7 +183,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #08092d;
   color: white;
 }
 @media (max-width: 767px) {
@@ -322,6 +324,7 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
+
 .btn-primary {
   color: white;
   background-color: #2C3E50;
