@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "sibusiso@projectcode.co",
+                url: "noreply@angulardata-8c624.firebaseapp.com",
                 type: "POST",
                 data: {
                     name: name,
