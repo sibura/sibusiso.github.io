@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Nelisa-Spaza App</title>
 
    <link href="./css/main1.css" rel="stylesheet">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -44,8 +44,8 @@
     <thead>
       <tr>
         <th>Index</th>
-        <th>Username</th>
-        <th>Email</th>
+        <th>product_name</th>
+        <th>Category_name</th>
         <th>Edit</th>
         <th>Delete</th>
       </tr>
@@ -53,8 +53,8 @@
     <tbody>
       <tr ng-repeat="user in users">
         <td style="color:white;">{{$index+1}}.</td>
-        <td style="color:white;">{{user.username}}</td>
-        <td style="color:white;">{{user.email}}</td>
+        <td style="color:white;">{{user.product_name}}</td>
+        <td style="color:white;">{{user.category_name}}</td>
         <td>
             <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModalEdit" ng-click="selectUser(user)">Edit</button>
            
@@ -209,7 +209,7 @@
                             </li>
 
                         </ul>
-                        <a class="twitter-timeline" data-width="222" data-height="203" data-theme="dark" href="https://twitter.com/TwitterDev/timelines/539487832448843776">National Park Tweets - Curated tweets by TwitterDev</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                      
                     </div>
 </footer>
    <!--end delete-->
