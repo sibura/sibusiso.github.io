@@ -191,16 +191,17 @@
   #linear-nav:hover {
     height: 300px;
   }
-/*
-  #footer {
+
+  /*#footer {
+    color:white;
     display: block;
     float: right;
     width: 400px;
     margin-left: -20px;
     margin-top: -310px;
 
-  }
-*/
+  }*/
+
   h2 {
     text-align: center;
     color: #369;
