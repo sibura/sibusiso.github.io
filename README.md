@@ -2,7 +2,7 @@
 # [Sibusiso Sites](https://sibura.github.io/sibusiso.github.io/)
 
 
-## Creator
+## Creater
 
 * https://github.com/sibura
 
