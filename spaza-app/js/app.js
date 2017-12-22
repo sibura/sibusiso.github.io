@@ -1,6 +1,7 @@
 var myApp = angular.module("myApp", []);
 
-myApp.controller("myController", function($scope){
+angular.module('myApp', []).controller('myController', function($scope){
+// myApp.controller("myController", function($scope){
     
     $scope.newUser = {};
     $scope.clickedUser = {};
@@ -20,6 +21,7 @@ myApp.controller("myController", function($scope){
         // {product_name:"Sbura", category_name:"sbur@gmail.com", fullname:"sibu"}
     ];
 
+
     $scope.saveUser = function(){
         $scope.users.push($scope.newUser);
         $scope.newUser = {};
@@ -31,6 +33,7 @@ myApp.controller("myController", function($scope){
     };
 
     $scope.updateUser = function(){
+        $scope.employees.push({ 'product_name': $scope.product_name, 'category_name': $scope.category_name, 'fullname': $scope.fullname});    
          $scope.message = "User Updated Successfully!";
     };
     $scope.deleteUser = function(){
@@ -38,8 +41,10 @@ myApp.controller("myController", function($scope){
          $scope.message = "User deleted Successfully!";
     };
 
-    $scope.clearMessage = function(){
-        $scope.message = "";
-    }
+    // $scope.clearMessage = function(){
+    //     $scope.message = "";
+    // }
+
+   
 
 });
