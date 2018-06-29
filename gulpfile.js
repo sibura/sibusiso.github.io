@@ -7,7 +7,7 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var filter = require('gulp-filter');
 var pkg = require('./package.json');
-
+// gulp.tasks = browserSync.tasks;
 // Set the banner content
 var banner = ['/*!\n',
     ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
