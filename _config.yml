@@ -1,2 +1,3 @@
 theme: jekyll-theme-slate,
-plugins: [jekyll-coffeescript, jekyll-watch, jekyll-assets]
+plugins: [jekyll-coffeescript, jekyll-watch, jekyll-assets],
+gem: "minima"
